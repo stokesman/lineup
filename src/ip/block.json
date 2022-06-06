@@ -1,0 +1,19 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "s8/ip",
+	"version": "0.1.0",
+	"title": "IP",
+	"category": "text",
+	"icon": "drumstick",
+	"description": "Show the visitor’s IP address.",
+	"supports": {
+		"html": false,
+		"typography": {
+			"fontSize": true
+		}
+	},
+	"textdomain": "s8-lineup",
+	"editorScript": "file:../ip.js",
+	"editorStyle": "file:../ip.css"
+}

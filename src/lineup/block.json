@@ -1,0 +1,21 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "s8/lineup",
+	"version": "0.1.0",
+	"title": "Lineup",
+	"category": "text",
+	"icon": "text",
+	"description": "Peas and carrots.",
+	"supports": {
+		"html": false
+	},
+	"attributes": {
+		"tagName": {
+			"type": "string",
+			"default": "p"
+		}
+	},
+	"textdomain": "s8-lineup",
+	"editorScript": "file:../lineup.js"
+}

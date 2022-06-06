@@ -1,0 +1,28 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "s8/special",
+	"version": "0.1.0",
+	"title": "Special Character",
+	"category": "text",
+	"icon": "editor-customchar",
+	"description": "Insert a special character or element.",
+	"supports": {
+		"html": false,
+		"typography": {
+			"fontSize": true
+		}
+	},
+	"attributes": {
+		"content": {
+			"type": "string",
+			"source": "html",
+			"selector": "span",
+			"default": "",
+			"__experimentalRole": "content"
+		}
+	},
+	"textdomain": "s8-lineup",
+	"editorScript": "file:../special.js",
+	"editorStyle": "file:../special.css"
+}
